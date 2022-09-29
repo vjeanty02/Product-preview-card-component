@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Product preview card component</title>
+    <script src="https://kit.fontawesome.com/7d76dabeae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-  Preview
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
+<body class="back-color-secondary flex-column-center">
+  <header></header>
   
-  <div class="attribution">
+  <main class="back-white">
+    <section>
+      <img src="images\image-product-desktop.jpg" alt="image">
+    </section>
+
+    <section class="flex-column-between">
+      <h2 class="font-montserrat dark-grayish-blue">PERFUME</h2>
+      <h1 class="font-fraunces very-dark-blue"> Gabrielle </br> Essence Eau </br> De Parfum</h1>
+      <p class="font-montserrat dark-grayish-blue">
+        A floral, solar and voluptuous interpretation composed by </br> Olivier Polge, 
+        Perfumer-Creator </br> for the House of CHANEL.
+      </p>
+      <div class="flex"><h1 class="font-fraunces color-primary ">$149.99</h1> <p class="font-montserrat dark-grayish-blue">$169.99</p></div>
+      <button class="font-montserrat white back-color-primary "><i class="fa-solid fa-cart-shopping"></i>Add to Cart </button> 
+    </section>
+  </main>
+  
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/vjeanty02/">vjeanty02</a>.
+  </footer>
+
 </body>
 </html>

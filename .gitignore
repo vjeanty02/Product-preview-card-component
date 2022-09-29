@@ -18,3 +18,8 @@
 style-guide.md
 Note.md
 design
+node_modules
+sass
+package-lock.json
+package.json
+style.css.map

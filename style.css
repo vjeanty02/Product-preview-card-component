@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap"); 
+
+/*Color*/
+.color-primary
+{
+  color: hsl(158, 36%, 37%);
+}
+.back-color-primary
+{
+  background-color: hsl(158, 36%, 37%);
+}
+.back-color-secondary
+{
+  background-color: hsl(30, 38%, 92%);
+}
+.very-dark-blue
+{
+  color: hsl(212, 21%, 14%);
+}
+.dark-grayish-blue
+{
+  color: hsl(228, 12%, 48%);
+}
+.back-white
+{
+  background-color: hsl(0, 0%, 100%);
+}
+.white
+{
+  color: hsl(0, 0%, 100%);
+}
+
+
+/*Font*/
+.font-montserrat
+{
+  font-family: 'Montserrat', Courier, monospace;
+}
+.font-fraunces
+{
+  font-family: 'Fraunces', Courier, monospace;
+}
+
+/*display*/
+.flex
+{
+  display: flex;
+}
+.flex-column
+{
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-center
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+.flex-column-between
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  gap:10px
+}
+body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main 
+{
+  display: flex;
+  width: 600px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+main h1{
+  line-height: 100%;
+}
+main h2{
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+main p {
+  font-size: 14px;
+  line-height: 160%;
+}
+main button {
+	border-radius:8px;
+  border: 0px;
+	cursor:pointer;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;
+  transition: 0.25s;
+}
+main button:hover {
+	background-color: hsl(158, 42%, 30%);
+}
+main i{
+  -webkit-text-stroke: 0.8px white;
+  padding-right: 10px;
+  color: transparent;
+} 
+
+
+section
+{
+  flex-basis: 50%;
+}
+section div p
+{
+  text-decoration: line-through;
+}
+section + section
+{
+  gap: 20px;
+  flex-basis: calc(50% - 70px);
+  padding: 35px;
+}
+footer
+{
+  padding: 10px;
+}
+
+
+
+@media all and (min-width: 0px) and (max-width: 600px)
+{
+  main{
+    flex-direction: column;
+    max-width: 350px;
+    margin: 20px;
+    width:calc(100% - 20px);
+  }
+  main img
+  {
+    border-radius: 10px 10px 0 0;
+    height: 250px;   
+  }
+  main br
+  {
+    display: none;
+  }
+  body
+  {
+    position: absolute;
+  }
+  footer
+  {
+    display: none;
+  }
+
+  header
+  {
+    display: none;
+  }
+
+}
+
+/*# sourceMappingURL=style.css.map */
