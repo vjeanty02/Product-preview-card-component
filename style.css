@@ -72,7 +72,10 @@
   padding: 0;
   gap:10px
 }
-body {
+
+
+main 
+{
   position: fixed;
   top: 0;
   bottom: 0;
@@ -80,7 +83,7 @@ body {
   right: 0;
 }
 
-main 
+.card-product-component
 {
   display: flex;
   width: 600px;
@@ -88,25 +91,25 @@ main
   margin-left: 20px;
   margin-right: 20px;
 }
-main img {
+.card-product-component img {
   object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 10px 0 0 10px;
 }
-main h1{
+.card-product-component h1{
   line-height: 100%;
 }
-main h2{
+.card-product-component h2{
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 5px;
 }
-main p {
+.card-product-component p {
   font-size: 14px;
   line-height: 160%;
 }
-main button {
+.card-product-component button {
 	border-radius:8px;
   border: 0px;
 	cursor:pointer;
@@ -115,25 +118,25 @@ main button {
 	text-decoration:none;
   transition: 0.25s;
 }
-main button:hover {
-	background-color: hsl(158, 42%, 30%);
+.card-product-component button:hover {
+	background-color: hsl(160, 47%, 26%);
 }
-main i{
+.card-product-component i{
   -webkit-text-stroke: 0.8px white;
   padding-right: 10px;
   color: transparent;
 } 
 
 
-section
+.card-product-component section
 {
   flex-basis: 50%;
 }
-section div p
+.card-product-component section div p
 {
   text-decoration: line-through;
 }
-section + section
+.card-product-component section + section
 {
   gap: 20px;
   flex-basis: calc(50% - 70px);
@@ -148,22 +151,22 @@ footer
 
 @media all and (min-width: 0px) and (max-width: 600px)
 {
-  main{
+  .card-product-component{
     flex-direction: column;
     max-width: 350px;
     margin: 20px;
     width:calc(100% - 20px);
   }
-  main img
+  .card-product-component img
   {
     border-radius: 10px 10px 0 0;
     height: 250px;   
   }
-  main br
+  .card-product-component br
   {
     display: none;
   }
-  body
+  main
   {
     position: absolute;
   }
