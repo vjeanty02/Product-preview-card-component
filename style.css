@@ -120,14 +120,14 @@ main
 .card-product-component button:hover {
 	background-color: hsl(160, 47%, 26%);
 }
-.card-product-component i{
+/*.card-product-component i{
   -webkit-text-stroke: 0.8px white;
   padding-right: 10px;
   color: transparent;
-} 
+} */
 
 
-.card-product-component section
+.card-product-component>div
 {
   flex-basis: 50%;
 }
@@ -135,7 +135,7 @@ main
 {
   text-decoration: line-through;
 }
-.card-product-component section + section
+.card-product-component section
 {
   gap: 20px;
   flex-basis: calc(50% - 70px);
