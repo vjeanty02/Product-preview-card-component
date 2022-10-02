@@ -73,6 +73,10 @@
   gap:10px
 }
 
+h1
+{
+  font-size: 0;
+}
 
 main 
 {
