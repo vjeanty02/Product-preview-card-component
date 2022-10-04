@@ -28,9 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Product preview card component](https://www.frontendmentor.io/solutions/product-preview-card-component-Ipd6UgyknR)
-- Live Site URL: [https://vjeanty02.github.io/Product-preview-card-component/)
-
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-Ipd6UgyknR)
+- Live Site URL: [Github]([https://www.frontendmentor.io/solutions/product-preview-card-component-Ipd6UgyknR]
 ## My process
 
 ### Built with
