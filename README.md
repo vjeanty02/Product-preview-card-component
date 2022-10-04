@@ -22,13 +22,13 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-![PC](https://user-images.githubusercontent.com/61328054/193474004-24a8a714-65b9-4a25-8fdd-25a507cf07a1.png)
-!Mobile](https://user-images.githubusercontent.com/61328054/193474623-3b8c355b-1b2a-488c-b552-ec96835a2641.png)
+![Screenshot (5)](https://user-images.githubusercontent.com/61328054/193728762-fd72f6db-0ae9-4b9f-a8a3-7e22d9bad960.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/61328054/193728791-a15f3d4c-ecb9-41da-ae88-bb064099529a.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Product preview card component](https://www.frontendmentor.io/solutions/product-preview-card-component-Ipd6UgyknR)
 - Live Site URL: [https://vjeanty02.github.io/Product-preview-card-component/)
 
 ## My process
