@@ -23,7 +23,6 @@ Users should be able to:
 
 ### Screenshot
 ![Screenshot (5)](https://user-images.githubusercontent.com/61328054/193728762-fd72f6db-0ae9-4b9f-a8a3-7e22d9bad960.png)
-![Screenshot (6)](https://user-images.githubusercontent.com/61328054/193728791-a15f3d4c-ecb9-41da-ae88-bb064099529a.png)
 
 
 ### Links
@@ -44,3 +43,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@vjeanty02](https://www.frontendmentor.io/profile/vjeanty02)
+- Linkedin - [@vjeanty02](https://www.linkedin.com/in/vjeanty02/)
+- Twitter -  [@vjeanty02](https://twitter.com/vjeanty02)
